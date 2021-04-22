@@ -1,1 +1,3 @@
-# INFO104TallerGit
+# INFO104 Taller Git
+
+Instalar git!
