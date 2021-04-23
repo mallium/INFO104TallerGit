@@ -11,7 +11,7 @@ Si no tienes GIT isntalado, puedes revisar como hacerlo para tu plataforma en la
 ## Clonar (clone) un repositorio
 Con git podemos crear repositorios o 'clonar' repositorios. Un repositorio es una versión versionada del código de un proyecto. Un proyecto puede tener 1 o más repositorios. Priemro clonaremos un repositorio de ejemplo. Para clonar un repositorio necesitamos tener varias cosas: 
 - La URL o identificador del repositorio que vamos a clonar. El repositorio que clonaremos está alojado en github, y su direccción es : **https://github.com/mallium/INFO104TallerGit.git**
-- Nuestra cuenta github para poder hacer cambios en el repositorio. El repositorio de ejemplo es **público**, loque significa que no ecesitaras tus credenciales (usuario/contraseña) para clonar el repositorio, pero si los necesitarás para 'subir' tus cambios.
+- Nuestra cuenta github para poder hacer cambios en el repositorio. El repositorio de ejemplo es **público**, loque significa que no necesitarás tus credenciales (usuario/contraseña) para clonar el repositorio, pero si los necesitarás para 'subir' tus cambios.
 - Estar en la carpeta donde vamos a 'descargar' el repositorio clonado. Recuerda, el repositorio está en github, en la nube, y queremos descargarlo. Entonces, primero abre un terminal o consola y muévete a la capeta en que quieres que el repositorio quede. En mi caso me muevo a una carpeta INFO104/repositorios. Luego clona el repositorio con la siguiente instrucción:
 
 `$ git clone https://github.com/mallium/INFO104TallerGit.git`
@@ -19,7 +19,7 @@ Con git podemos crear repositorios o 'clonar' repositorios. Un repositorio es un
 Debieras ver indicadores que están bajando los archivos de repositorio.
 Puedes ver en tus archivos el repositorio. Verás que hay una carpeta oculta .git. No vayas a borrar esta carpeta!!! Contiene toda la información de versionamiento.
 
-Clonar un repositorio implica 'descargarlo' a tu máquina, pero también establecerlo como repositorio **local**. El repositorio es local porque en tu propia máquina tienes una copia del repositorio versionado. En este punto es importante entendr que tu copia local del repositorio no está automáticamente sincronizada con el repositorio en github. En general, para versionar cambios (modificación de archivos, agregar archivos, eliminar archivos) primero debes agregar estos cambios al repositorio local y luego al repositorio remoto. Son dos pasos diferentes!
+Clonar un repositorio implica 'descargarlo' a tu máquina, pero también establecerlo como repositorio **local**. El repositorio es local porque en tu propia máquina tienes una copia del repositorio versionado. En este punto es importante entender que tu copia local del repositorio no está automáticamente sincronizada con el repositorio en github. En general, para versionar cambios (modificación de archivos, agregar archivos, eliminar archivos) primero debes agregar estos cambios al repositorio local y luego al repositorio remoto. Son dos pasos diferentes!
 
 ## Haciendo cambios y versionando en el repositorio local
 Lo siguiente que haremos será hacer modificaciones en los archivos. Por ejemplo crear un archivo de texto nuevo. 
@@ -60,3 +60,7 @@ La segunda estrategia es trabajar en **ramas** o **branches**. Un **branch** es 
 Esta instrucción crea el branch _complemento_ (el nombre es sólo un ejemplo)
 
 ` $ git checkout -b complemento`
+
+Ahora nuestro branch está registrado en nuestro repositorio local. Para subir el brach (no siempre querremos hacer esto) al repo remoto:
+
+`git push -u origin complemento`
