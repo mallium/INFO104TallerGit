@@ -87,5 +87,5 @@ Notar como referencia al branch _complemento_ de _origin_ y no a _main_. El bran
 ## Mas información
 - [Libro de git en español](https://git-scm.com/book/es/v2)
 - [Hacer branching and merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-- [GitKraken] https://www.gitkraken.com/
+- [GitKraken](https://www.gitkraken.com/)
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
