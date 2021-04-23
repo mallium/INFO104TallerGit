@@ -43,7 +43,9 @@ Lo siguiente que haremos será hacer modificaciones en los archivos. Por ejemplo
 
 ## Enviando la versión actualizada del repositorio local al repositorio remoto
 Para publicar nuestros cambios en repositorio comaprtido, el remoto, debemos hacer un **push**:
+
 `$ git push origin main`
+
 El comando **git push** toma dos argumentos: origin main que se refieren al repositorio original (en github) y su _rama_ **main**.
 En este momento git puede pedirte tu nobre de usuario git y tu contraseña. 
 
@@ -61,6 +63,14 @@ Esta instrucción crea el branch _complemento_ (el nombre es sólo un ejemplo)
 
 ` $ git checkout -b complemento`
 
-Ahora nuestro branch está registrado en nuestro repositorio local. Para subir el brach (no siempre querremos hacer esto) al repo remoto:
+Enrealidad se crea el branch en el repositorio local. Si el branch existe en el repositorio remoto, entonces git actualizará tu carpeta con losarchivos del branch correspondiente. Moverse entre branches significa cambiar archivos! 
+
+Ahora haremos algunos cambios, por ejemplo agregaré un archivo complementos.txt en el proyecto y lo versionaré:
+
+`$ git commit -m "agregado archivo con complementos"`
+
+Ahora nuestro branch está registrado en nuestro repositorio local y localmente actualizado.  Para subir el brach (no siempre querremos hacer esto) al repo remoto:
 
 `git push -u origin complemento`
+
+Notar como referencia al branch _complemento_ de _origin_. Este branch no existe en el repo remoto, pero será creado.
