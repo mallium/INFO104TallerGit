@@ -78,4 +78,6 @@ Ahora nuestro branch está registrado en nuestro repositorio local y localmente 
 
 `git push -u origin complemento`
 
-Notar como referencia al branch _complemento_ de _origin_ y no a _main_. El branch _complemento_ no existe en el repo remoto, pero será creado.
+Notar como referencia al branch _complemento_ de _origin_ y no a _main_. El branch _complemento_ no existe en el repo remoto, pero será creado. Para moverse de un branch a otro podemos usar el comando git checkout.
+
+`$ git checkout main`  nos devuelve al branch main.
