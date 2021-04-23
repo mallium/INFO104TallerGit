@@ -85,5 +85,6 @@ Notar como referencia al branch _complemento_ de _origin_ y no a _main_. El bran
 `$ git banch`  nos muestra los branches del repo y en cual estamos
 
 ## Mas información
-[Libro de git en español](https://git-scm.com/book/es/v2)
+- [Libro de git en español](https://git-scm.com/book/es/v2)
+- [Hacer branching and merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
