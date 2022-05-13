@@ -1,5 +1,5 @@
 const fs = require('fs');
-
+const lmao = "lmfao";
 let user = {
     name: 'John Doe',
     emai: 'john.doe@example.com',

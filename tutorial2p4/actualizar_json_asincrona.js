@@ -1,5 +1,5 @@
 const fs = require('fs');
-
+const lmao = "lmfao";
 // read the file
 fs.readFile('./databases.json', 'utf8', (err, data) => {
 
