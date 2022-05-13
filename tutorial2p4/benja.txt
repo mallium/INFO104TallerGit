@@ -16,3 +16,7 @@ git status indica error, aun no se añaden esos cambios al repositorio local.
 ahora estan listos los cambios para el commit.
 "git commit" para lanzar cambios al repositorio.
 Se tiene que enviar el commit con algun comentario, esto es obligatorio, recomienda resumen de cambios
+por ultimo hacer "push", si haces esto por consola, necesesitas enviar con un correo de una cuenta github,
+esta cuenta debe ser participante del proyecto main, para que puedas hacer un push.
+si hay errores que deben resolverse antes de lograr un push, no se realizara el push.
+buena suerte lmao
