@@ -2,17 +2,4 @@ Este es mi archivo
 lmao lesgo
 Apes Arsum
 
-Seguimos el tutorial de Git, el taller de GIT, diferencia entre repositorios, que es git etc.
-
-Usaremos git, puedo usarlo con cmd , o consola de git.
-Nescesita estar git instalado, usando comandos git (aqui_comando)
-como: clone , status , add , commit (local)
-Clonar tallerGit con ($ git clone https://github.com/mallium/INFO104TallerGit.git), mover carpeta actual en consola con
-- "cd" y se clonara en la carpeta actual. 
-con consola en ella, "git status" , entrega la diferencia entre la version proyecto con la del repositorio,
-Hacer cambios en tutorial2p4, hice un archivo nuevo con mi nombre y creamos una constante nueva en actualizar_json_asincronica.js 
-git status indica error, aun no se añaden esos cambios al repositorio local.
-"git add" en consola para añadirlos, "git add ." para agregar todo cambio hecho, o "git add (archivo)", para seleccionar un archivo en especifico.
-ahora estan listos los cambios para el commit.
-"git commit" para lanzar cambios al repositorio.
-Se tiene que enviar el commit con algun comentario, esto es obligatorio, recomienda resumen de cambios
+Seguicommit con algun comentario, esto es obligatorio, recomienda resumen de cambios
